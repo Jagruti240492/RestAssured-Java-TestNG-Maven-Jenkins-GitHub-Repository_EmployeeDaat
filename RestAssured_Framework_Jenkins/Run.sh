@@ -1,0 +1,2 @@
+cd /Users/jagrutishevalkar/Documents/Interview_Practice/RestAssured_Framework_Jenkins
+mvn clean install

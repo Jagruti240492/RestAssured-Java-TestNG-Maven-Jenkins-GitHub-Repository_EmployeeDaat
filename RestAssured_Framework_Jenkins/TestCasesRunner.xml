@@ -1,0 +1,17 @@
+<suite name = "RestAssuredAPI_Employee_Data">
+
+	<listeners>
+		<listener class-name= "com.employeeapi.utilities.Listeners"/>
+	</listeners>
+	
+	<test name = "RestAssuredAPI Testing">
+		<classes>
+			<class name = "com.employeeapi.testcases.TC001_GET_All_Employees" />
+			<class name = "com.employeeapi.testcases.TC002_GET_Single_Employee" />
+			<class name = "com.employeeapi.testcases.TC003_POST_Create_Employee" />
+			<class name = "com.employeeapi.testcases.TC004_PUT_Update_Employee" />
+			<class name = "com.employeeapi.testcases.TC005_DELETE_Employee" />
+		</classes>
+	</test>
+	
+</suite>
